@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/paduk" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <RadioButton
+            android:id="@+id/cha1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="리 자 몽" />
+
+        <RadioButton
+            android:id="@+id/chax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메 가 리 자 몽 X" />
+
+        <RadioButton
+            android:id="@+id/chay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메 가 리 자 몽 Y" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnThrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이 동 하 기" />
+</LinearLayout>

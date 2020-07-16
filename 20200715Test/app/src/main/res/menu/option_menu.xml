@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/oMchageScreen1"
+        android:icon="@drawable/pichu"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/oMchageScreen2"
+        android:icon="@drawable/pikachu"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/oMSlide"
+        android:icon="@drawable/raichu"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/changeFragment1"
+        android:title="ChangeFragment1" />
+    <item
+        android:id="@+id/changeFragment2"
+        android:title="ChangeFragment2" />
+    <item
+        android:id="@+id/changeFragment3"
+        android:title="ChangeFragment3" />
+</menu>

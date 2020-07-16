@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 이벤트 상태 유지를 위해 fillAfter를 넣는다. -->
+<!-- interpolator 점점 빨리지게 나오기위해 넣는다.. -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <translate android:fromXDelta="100%"
+                android:toXDelta="0%"
+                android:duration="1000"
+                android:repeatCount="0"/>
+</set>
