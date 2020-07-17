@@ -26,4 +26,10 @@
     <item
         android:id="@+id/changeFragment3"
         android:title="ChangeFragment3" />
+    <item
+        android:id="@+id/oMMoveDrawBoard"
+        android:title="그림판으로 가기" />
+    <item
+        android:id="@+id/oMPhotoShop"
+        android:title="나만의 포토샵" />
 </menu>

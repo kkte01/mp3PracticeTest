@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
-        android:id="@+id/cha1"
-        android:title="리자몽" />
+        android:id="@+id/drawLine"
+        android:title="선 그리기" />
     <item
-        android:id="@+id/chax"
-        android:title="메가리자몽X" />
+        android:id="@+id/drawCircle"
+        android:title="원 그리기" />
     <item
-        android:id="@+id/chay"
-        android:title="메가리자몽Y" />
+        android:id="@+id/drawSqure"
+        android:title="사각형 그리기" />
+    <item android:title="색상변경">
+        <menu>
+            <item
+                android:id="@+id/changeRed"
+                android:title="빨강" />
+            <item
+                android:id="@+id/changeBlue"
+                android:title="파란색" />
+            <item
+                android:id="@+id/changeGreen"
+                android:title="녹색" />
+        </menu>
+    </item>
 </menu>
